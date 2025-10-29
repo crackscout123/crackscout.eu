@@ -23,6 +23,7 @@ Installieren und starten:
 
 ```bash
 # Installation
+npm install 
 npm ci
 
 # Entwickeln
