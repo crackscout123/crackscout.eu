@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
-import { ColumnKey, CONFIG } from "./config";
-import { ServiceRow } from "./fakeApi.ts";
+import { ColumnKey, CONFIG } from "../config/config.ts";
+import { ServiceRow } from "../api/fakeApi.ts";
 
 interface Props {
   rows: ServiceRow[];

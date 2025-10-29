@@ -1,10 +1,10 @@
 import React, { useMemo, useState, useEffect } from "react";
 import SplitPane from "react-split-pane";
-import { CONFIG, ColumnKey } from "./config";
-import { FakeApi, ServiceRow } from "./fakeApi.ts";
-import ServiceTable from "./ServiceTable";
-import DetailPane from "./DetailPane";
-import CustomizeModal from "./CustomizeModal";
+import { CONFIG, ColumnKey } from "./config/config.ts";
+import { FakeApi, ServiceRow } from "./api/fakeApi.ts";
+import ServiceTable from "./components/ServiceTable.tsx";
+import DetailPane from "./components/DetailPane.tsx";
+import CustomizeModal from "./components/CustomizeModal.tsx";
 
 export default function App() {
   const [rows, setRows] = useState<ServiceRow[]>([]);

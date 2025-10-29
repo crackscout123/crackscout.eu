@@ -1,5 +1,5 @@
 import React from "react";
-import { ServiceRow } from "./fakeApi.ts";
+import { ServiceRow } from "../api/fakeApi.ts";
 
 export default function DetailPane({ row, isAdmin }: { row: ServiceRow | null; isAdmin: boolean; }) {
   if (!row) return <div className="pane-empty">Wähle einen Dienst links aus.</div>;
