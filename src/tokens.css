@@ -1,0 +1,39 @@
+/* Design Tokens (Light/Dark) */
+:root {
+  --color-primary: #2DCCFF;
+  --color-success: #00E200;
+  --color-warning: #FAD800;
+  --color-danger:  #FF2A04;
+  --color-unknown: #7B8089;
+  --color-text:    #101114;
+  --color-bg:      #FFFFFF;
+
+  --fs-body: 14px; --lh-body: 20px;
+  --fs-small: 12px; --lh-small: 16px;
+  --fs-h4: 18px; --lh-h4: 24px;
+
+  --cell-px: 12px; --cell-py: 8px;
+  --panel-pad: 16px;
+  --row-min-height: 44px;
+
+  --status-ok: #00E200;
+  --status-deg: #FAD800;
+  --status-out: #FF2A04;
+  --status-mnt: #2DCCFF;
+
+  --border-weak: 1px solid rgba(164,171,182,0.3);
+  --focus-outline: 2px solid var(--color-primary);
+}
+:root[data-theme="dark"] {
+  --color-success: #56F000;
+  --color-warning: #FCE83A;
+  --color-danger:  #FF3838;
+  --color-unknown: #A4ABB6;
+  --color-text:    #ECEFF4;
+  --color-bg:      #0B0C0E;
+
+  --status-ok: #56F000;
+  --status-deg: #FCE83A;
+  --status-out: #FF3838;
+  --status-mnt: #2DCCFF;
+}
